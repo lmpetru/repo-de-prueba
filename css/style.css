@@ -1,0 +1,184 @@
+@import url('normalize.css')
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/bg-body.png);
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+  margin: 15px auto 30px;
+}
+.banner {
+  display: none;
+}
+ .main-nav ul{
+   list-style: none;
+ }
+ .main-nav {
+   width: 100%;
+   padding: 0;
+   margin: 30px 0;
+   display: none;
+
+
+ }
+ .main-nav ul a {
+
+   font-size: 1.5em;
+   text-decoration: none;
+   color: white;
+   display: block;
+   padding: 20px 10px;
+   background-color: #333;
+   text-transform: uppercase;
+   border-bottom: solid 1px white;
+ }
+
+ .ion-drag {
+   font-size: 3em;
+ }
+
+ .toggle-nav {
+   display: block;
+   margin: auto;
+   width: 50px;
+   text-align: center;
+   background-color: black;
+   color: white;
+ }
+ .product {
+   margin: 30px 0;
+ }
+
+.product h2 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 2px red;
+}
+.product p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.product a {
+  background-color: #333;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+  display: inline-block;
+
+}
+ .product img{
+   width: 100%;
+ }
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-footer ul a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  border-bottom: solid 1px white;
+
+}
+ .main-footer {
+   background-color: rgb(241, 29, 29);
+
+ }
+
+ @media (min-width: 700px) {
+
+   .container {
+     width: 90%;
+     max-width: 1200;
+   }
+
+   .toggle-nav {
+     display: none;
+   }
+
+   .main-nav {
+     display: block;
+   }
+   .main-nav ul li {
+     float: left;
+     width: 15%;
+     margin: 0px 0.83%;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+   .main-nav ul a {
+     font-size: 1.3em;
+     border-bottom: none;
+   }
+
+   .banner {
+     display: block;
+     margin: 0 0.83%;
+   }
+
+   .banner img {
+     width: 100%;
+   }
+   .product{
+     margin-left: 0.83%,auto;
+     margin-right: 0.83%;
+     width: 48.34%;
+     float: left;
+   }
+
+   .main-footer {
+     clear: both;
+   }
+
+ }
+
+
+ @media (min-width: 1000px) {
+
+   .product {
+     width:31.66%;
+   }
+
+.main-footer ul{
+  text-align: center;
+}
+   .main-footer li{
+     color: white;
+     font-size: 1.5em;
+     display: inline-block;
+     padding: 20px;
+ }
+     .main-footer ul a{
+       text-transform: capitalize;
+       border-bottom: none;
+       padding: 15px;
+       border-right: solid 1px white;
+           }
+        .main-footer {
+          border-radius: 15px 15px 0 0;
+          padding: 30px 0;
+        }
+
+        .main-footer li:last-child a{
+          border-right: none;
+        }
